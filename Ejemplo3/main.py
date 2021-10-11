@@ -2,9 +2,7 @@ from flask import Flask,request,abort
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return 'Web App with Python Flask!'
+usuarios=[1,2,3,4,5]
 
 @app.route('/')
 def index():
@@ -19,6 +17,6 @@ def getuser():
     if request.method == 'DELETE':
         return ""
     else:
-        abort(405)
+        abort(405,description="Method not allowed")
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0', port=5000)

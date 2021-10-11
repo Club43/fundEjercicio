@@ -1,4 +1,4 @@
-FROM XXXXXXXX
+FROM XXXXX
 
 # Complete the needed
 
