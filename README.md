@@ -1,4 +1,4 @@
-# fundEjercicio
+# Ejercicios Repaso Fundamentos
 
 **Intro**
 
