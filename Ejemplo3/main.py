@@ -9,7 +9,7 @@ def index():
     return 'Web App with Python Flask!'
 
 @app.route('/users/<user_id>', methods = ['GET', 'POST', 'DELETE'])
-def getuser():
+def getuser(user_id):
     if request.method == 'GET':
         return ""
     if request.method == 'POST':
