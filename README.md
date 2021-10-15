@@ -2,7 +2,7 @@
 
 **Intro**
 
-Para realizar este ejercicio vamos a necesitar que creéis un repo en vuestra cuenta de github, y subáis el siguiente código sobre el que iremos trabajando. Cread una carpeta por cada ejercicio:
+Para realizar este ejercicio vamos a necesitar que creéis una carpeta en vuestro repo de github, y subáis el siguiente código sobre el que iremos trabajando. Cread una carpeta por cada ejercicio:
 
 **Ejercicio 0:**
 
@@ -10,7 +10,7 @@ Cread un script de unix que haga los siguientes comandos, **init.sh**
 
 - Cread una carpeta
 
-- Darle permisos de 777
+- Darle todos los permisos
 
 - Crear un fichero dentro de la carpeta README.md
 
@@ -18,7 +18,20 @@ Cread un script de unix que haga los siguientes comandos, **init.sh**
 
 - Dad permiso al documento README.md solo con lectura para todos
 
-  
+- Dadle permisos al script de ejecución
+
+- Ejecutad el script
+
+**Ejercicio 0.1:**
+
+Cread un script de unix que haga los siguientes comandos, **clone.sh**
+
+- clonad vuestro repositorio usando un script 
+
+- Cread un fichero llamado "hola.txt"
+
+- Hacer los comandos necesarios para subirlo al repo 
+
 
 **Ejercicio 1:**
 
